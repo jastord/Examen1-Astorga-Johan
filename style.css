@@ -1,0 +1,79 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+}
+.logo{
+    display: flex;
+    background-color: red;
+    place-items: center;
+    padding: 5px;
+}
+.opciones{
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+    place-items: center;
+    justify-content:space-around;
+}
+.imgopc{
+    margin-right: 5px;
+}
+button{
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 0px;
+    font-size: large;
+}
+main img{
+    height: 550px;
+    border-radius: 10px;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+main{
+    border: solid 1px black;
+    display: grid;
+    justify-content: center;
+    background:linear-gradient(to bottom, red, white);
+    padding: 40px;
+}
+section{
+    display: flex;
+    margin-left: 20px;
+}
+article img{
+    border-radius: 10px;
+    width: 100%;
+}
+article button{
+    background-color:royalblue;
+}
+.encabezado{
+    margin-left: 40px;
+}
+article{
+    padding: 40px;
+    max-width: 400px;
+    margin-right: 30px;
+    border: solid 1px black ;
+    border-radius: 10px;
+}
+article p{
+    text-align: center;
+}
+article h2{
+    text-align: center;
+}
+.contenedoresP{
+    display: flex;
+    flex-wrap: wrap;
+}
+
